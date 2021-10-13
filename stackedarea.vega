@@ -4,7 +4,7 @@
     {
     "title": "Use this area chart to brush through different years",
     "data": {
-    "url": "https://raw.githubusercontent.com/KentFong/Project-2/main/brazil_loss.csv"},
+    "url": "https://raw.githubusercontent.com/babypizza/3179-Project-2/main/brazil_loss.csv"},
       "encoding": {
         "color": {
           "condition": {
@@ -51,7 +51,7 @@
     {
     "title": "Use this bar chart to highlight different causes",
     "data": {
-    "url": "https://raw.githubusercontent.com/KentFong/Project-2/main/brazil_loss.csv"},
+    "url": "https://raw.githubusercontent.com/babypizza/3179-Project-2/main/brazil_loss.csv"},
       "encoding": {
         "color": {
           "condition": {
