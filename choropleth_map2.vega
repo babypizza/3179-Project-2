@@ -35,7 +35,7 @@
   
       {
         "data": {
-        "url": "https://raw.githubusercontent.com/KentFong/Project-2/main/annual-change-forest-area.csv"
+        "url": "https://raw.githubusercontent.com/babypizza/3179-Project-2/main/annual-change-forest-area.csv"
         },
         "transform": [
           {
@@ -74,7 +74,7 @@
   
                 {
         "data": {
-          "url": "https://raw.githubusercontent.com/KentFong/Project-2/main/annual-change-forest-area.csv"
+          "url": "https://raw.githubusercontent.com/babypizza/3179-Project-2/main/annual-change-forest-area.csv"
         },
        "layer": [
                 {
