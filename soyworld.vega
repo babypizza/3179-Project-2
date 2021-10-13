@@ -1,6 +1,6 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "width": 750,
+    "width": 650,
     "height": 400,
     "title": "Select one of the Usages of Soy",
     "data": {"url": "https://raw.githubusercontent.com/KentFong/Project-2/main/soy_world.csv"},
