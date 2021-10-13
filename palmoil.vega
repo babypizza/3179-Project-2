@@ -1,6 +1,6 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "data": {"url": "https://raw.githubusercontent.com/KentFong/Project-2/main/land-use-palm-oil.csv"},
+    "data": {"url": "https://raw.githubusercontent.com/babypizza/3179-Project-2/main/land-use-palm-oil.csv"},
     "width": 500,
     "height": 400,
     "title": "Hover through the chart to enquire more data",
