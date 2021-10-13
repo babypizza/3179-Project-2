@@ -1,0 +1,40 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "width": 750,
+    "height": 400,
+    "title": "Select one of the Usages of Soy",
+    "data": {"url": "https://raw.githubusercontent.com/KentFong/Project-2/main/soy_world.csv"},
+    "mark": "bar",
+    "params": [{
+      "name": "highlight",
+      "select": {"type": "point", "fields": ["type"]},
+      "bind": "legend"
+    }],
+    "encoding": {
+      "x": {
+        "timeUnit": "year", "field": "Year",
+        "axis": {"domain": false, "format": "%Y", "tickSize": 0},
+        "title": "Year"
+      },
+      "y": {
+        "field": "count", "type": "quantitative",
+        "title": "Total Soy Production"
+        },
+  
+      "color": {
+        "field":"type", "type": "nominal",
+        "title": "Usages of Soy"
+  
+      },
+  
+      "opacity": {
+        "condition": {"param": "highlight", "value": 1},
+        "value": 0.2
+      },
+      "tooltip": [
+   {"field": "count", "type": "quantitative"},
+   {"field": "type", "type": "nominal"},
+  {"field": "Year", "type": "temporal", "format":"%Y"}
+      ]
+    }
+  }
